@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="asset/css/index.css">
+    <script src="style.js"></script>
+    <style>
+        body{
+        width: 80%;
+        height: 550px;
+        background-size: cover;
+        background-position: center;
+    }
+ *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: fixed;
+}
+nav{
+    display: flex;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    margin-left: 700px;
+    padding: 40px;   
+}
+ul li:hover a{
+    color: rgb(230, 104, 59);
+}
+.logo{
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+h1{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+button{
+    border: 2px solid black;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(6, 6, 6);
+    color: rgb(250, 250, 250);
+}
+h2 span{
+    color:rgb(209, 73, 24);
+}
+h2, h1, h3{
+    color: wheat;
+}
+h2{
+    weight:100%;
+    position: relative;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    color: #2a6677;
+    text-align: center;
+    -webkit-box-reflect:below 1px linear-gradient(transparant,rgba(28, 28, 28, 0.533));
+    line-height: 0.7em;
+    outline: none;
+    animation: animate 3.5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18%,20%,30%,50%,60%,70%,80%,90%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px,
+        0 0 20px #99b1b9,
+        0 0 40px #a6c7d2,
+        0 0 80px #a7ceda,
+        0 0 0px #aed5e1;
+    }
+}
+h1 span{
+    color:rgb(209, 73, 24);
+}
+.home{
+    display: flex;
+    margin-top: 10px;
+}
+.con{
+    margin-top: 10%;
+    margin-left: 100PX;
+    text-align: center;
+}
+.my{ 
+    margin-bottom: 90px;
+    margin-left: 20%;
+    position: absolute;
+    height: 70%;
+    left: 40%;
+    bottom: 0;
+    transition: left 2.5s ease;
+    border: transparent 3px solid ;
+    border-radius: 50%;
+}
+.my:hover{
+    left: 45%;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 0PX;
+}
+h3{
+    margin-top: 20px;
+}
+
+.section{
+            border-top: #fff 10px solid;
+            min-height: 128vh;
+            background-color: rgb(5, 5, 5);
+            width: 125%;
+            text-align: center;
+            margin-top: 20%;
+        }
+        .hero{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+        }
+        article h1{
+            font-size: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #fcba03;
+        }
+        .ph2{
+            margin-top: 40px;
+            border: 100px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            box-shadow: 3px 3px 5px 3px rgb(190, 205, 50);
+        }
+
+        content i b{
+            font-size: 24px;
+            color: aliceblue;
+            line-height: 2;
+            text-align: center;
+            
+          
+        }
+        article h5{
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 500;
+            margin: 30px;
+            color: #7aa05d;
+        }
+        h5, b{
+            color: rgb(235, 205, 145);
+        }
+        article p{
+            font-size: 18px;
+            color: #fff;
+        }
+        .ph2:hover{
+            transform:rotateY(180deg);
+            transform-style: initial;
+            transition: 2s;
+        }
+        body{
+            min-height: 150vh;
+            background-image:linear-gradient(rgba(82, 76, 76, 0.7), rgba(70, 63, 63, 0.7)), url("asset/img/bg11.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+    }
+    .skills{
+        background-color: #0a090a;
+        border-top: 10px solid whitesmoke;
+        min-height: 128vh;
+        width: 125%;
+    }
+    h1{
+        color: rgb(194, 195, 225);
+      
+    }
+
+    .new1{
+        margin-left: 50px;
+        border: 5px solid rgb(172, 204, 120);
+        box-shadow: 3px 3px 5px 5px rgb(40, 54, 12);
+        
+    }
+    .new2{
+        margin-left: 50px;
+        border: 5px solid rgb(172, 204, 120);
+        box-shadow: 3px 3px 5px 5px rgb(40, 54, 12);
+    }
+    .new3{
+        margin-left: 50px;
+        border: 5px solid rgb(172, 204, 120);
+        box-shadow: 3px 3px 5px 5px rgb(40, 54, 12);
+    }
+    .new001{
+        border: 5px solid rgb(172, 204, 120);
+        box-shadow: 3px 3px 5px 5px rgb(40, 54, 12);
+    }
+    .new002{
+        border: 5px solid rgb(172, 204, 120);
+        box-shadow: 3px 3px 5px 5px rgb(40, 54, 12);
+    }
+    .new4{
+        margin-left: 50px;
+        border: 5px solid rgb(172, 204, 120);
+        box-shadow: 3px 3px 5px 5px rgb(40, 54, 12);
+    }
+ 
+   
+ .education {
+    padding-bottom: 20px;
+    margin-bottom: 20PX;
+ }
+ .contact{
+    background-color: #252f31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width: 125%;
+    margin-top: -40px;
+    }
+    
+    .contact h2 {color: #fff;margin-left:40px;
+    margin-bottom: 50px;}
+    
+    .contact .info {
+        width: 50%;
+        margin-right: 5%;
+        float: left; 
+    }
+    
+    .contact p { color: #6a6e71; margin-left: 40px; line-height: 1.7;}
+    
+    .contact p strong {color: #f0f1f1;}
+    
+    
+    .contact .form {
+        width: 45%;
+        float: left;
+    }
+    
+    .contact .form label {
+        display: block;
+        color: #f0f1f1;
+        margin: 10px 0;
+    }
+    .contact .form input[type="text"] {
+        background-color: #4b5557;
+        color: #fff;
+        padding: 10px;
+        border: 0;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    .contact .form  .textarea  {
+      height: 300px;
+    }
+    
+    .contact .form  input[type="submit"] {
+        background-color: #191e22;
+        color: #fff;
+        padding : 19px 28px;
+        border: 0px;
+        margin-top: 10px;
+    
+    }
+    span{
+        color: #a6c7d2;
+    }
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="logo">Muralidharan</h1>
+
+            <ul>
+                <li><a  onclick="scrollData('Home')">Home</a></li>
+                <li><a  onclick="scrollData('About')">About</a></li> 
+                <li><a  onclick="scrollData('Skills')">Skills</a></li>
+                <li><a  onclick="scrollData('Contact')">Contact</a></li>
+            </ul>
+
+        </nav>
+    </div><br><br>
+    <!--home section design-->
+    <div class="home" sty>
+        <div class="con">
+        <h2>Hi, I'm <span>Muralidharan</span>.</h2>
+        <h1><span>W</span>EB <span>D</span>EVELOPER</h1>
+       
+        <h3><i><b>As a web developer, my objective is to create user friendly and <br>
+            efficient websites that are visually appealing and easy navigate. I utilize my skills<br>
+            in HTML and CSS to develop websites that meet all the requrements of client.</i></b></h3>
+
+            XC
+            <button><b>Hire Me</b></button><br>
+        </div>
+            <img src="asset/img/1705768891326.jpg" class="my" width="450"height="500">
+    </div><br><br>
+   
+    <!--about section design-->
+    <div class="section" id="about">
+        <div class="hero">
+            <article>
+                <h1>ABOUT ME</h1>
+                <img src="asset/img/WhatsApp Image 2024-05-25 at 11.33.57 AM.jpeg" alt="profile"class="ph2"width="450"height="500"><br>
+                <content>
+                  <I><b> I am a web developer. I can provide clean code and pixel perfect design.<br>
+                    I also make the website more @ more intractive with web animations.<br>
+                    A responsive design makes your website accessible to all users,<br>
+                    regardless of therir device.</b> </I>
+
+                </content>
+                <h5>NAME      :<b> MURALIDHARAN</b></h5>
+                <h5>MOBILE NO :<b>  8668120763</b></h5>
+                <h5>EMAIL     :<b>  muralidharan1281999@gmail.com</b></h5>
+                <h5>PROJECTS  :<b>  Coffee Shop & Hostel landing pages</b></h5>
+                
+                
+            </article>
+        </div>
+    </div>
+    <!--portfolio section design-->
+
+  
+    <section class="skills"><br><br>
+    
+        <h1>Skills</h1><br><br>
+        
+        <div class="one">
+            
+        <img src="asset/img/html.jpg"alt="img"width="180"height="180"class="new001">
+        <img src="asset/img/css new 11.jpg"alt="img"width="180"height="180"class="new1">
+        <img src="asset/img/boost.jpg"alt="img"width="180"height="180"class="new2">
+    </div><br><br>
+    <div class="two">
+        <img src="asset/img/jsss.jpg"alt="img"width="180"height="180"class="new002">
+        <img src="asset/img/react.png"alt="img"width="180"height="180"class="new3">
+        <img src="asset/img/php.png"alt="img"width="180"height="180"class="new4">
+        
+    </div>
+    
+  
+    
+        <h1 class="four" id="education">Education</h1>
+    <div class="education">
+        <h1>10th,Municiple High School - 76%</h1>
+        <h1>12th,Sri Ragavendra Higher Sec School - 82%</h1>
+        <h1>Bsc (ECS), CMS College of Science and Commerce</h1>
+        <h1>Msc (AE),  CMS College of Science and Commerce</h1>
+    </div>
+</section><br><br>
+
+    <!--contact section design--><br>
+
+    <div class="contact">
+        <div class="Container">
+            <div class="info">
+        <h2> contact me </h2>
+            <span>126A, konamoolai, <br>
+            Sathyamangalam, <br>
+            Erode.</span>
+        
+        </p>
+        <p>
+          <strong> Emai: </strong> laith.muralidharan1281999@gmail.com <br>
+            <strong> Phone: </strong> 8668120763
+            </div>
+            <form class="form">
+            <label> Name *   </label>
+            <input type="text">
+        
+             <label> Email Adress  *   </label>
+            <input type="text">
+        
+             <label> Phone  *   </label>
+            <input type="text">
+        
+             <label class=""> Massage   </label>
+            <input class="textarea" type="text">
+            
+            <input type="submit"  value="contact me">
+
+            </form></div>
+
+    <script>
+       function scrollData(idData){
+       console.log('hello')
+        var skill=document.getElementById(idData);
+        skill.scrollIntoView({behavior:"smooth",block:"start"})
+       }
+    </script>
+
+</body>
+</html>
